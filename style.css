@@ -68,4 +68,7 @@ font-weight: 550;
 border: 1px solid #000;
 font-weight: 550;
 }
-
+.completed{
+    background-color: rgba(173, 247, 64, 0.484);
+   text-decoration: line-through;
+}
