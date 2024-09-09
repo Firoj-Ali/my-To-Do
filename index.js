@@ -19,7 +19,18 @@ add.addEventListener('click', function (e) {
     deleteButton.addEventListener('click', function () {
 
         main.removeChild(message);
-        // message.innerHTML = '';  
+         
+    })
+
+     cheakBox.addEventListener('change', function(){
+
+   
+if (this.checked) {
+   message.classList.add('completed');
+}else{
+    message.classList.remove('completed');
+}
+       
     })
 
 });
